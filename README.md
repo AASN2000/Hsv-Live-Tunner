@@ -24,9 +24,9 @@ This tool does not move your mouse or interact with an Arduino. It is for visual
 3.  Build the solution
 
 #Hotkeys
-F1 - HSV Hot-Swap: Opens a menu in the console to let you type in new HSV lower and upper bounds.
-F12 - Settings Editor: Opens a menu to adjust other visual parameters like FOV size, aim target, and offsets.
-END - Exit and Save: Closes the application and saves the last used HSV values to tuned_hsv_values.txt.
+-    F1 - HSV Hot-Swap: Opens a menu in the console to let you type in new HSV lower and upper bounds.
+-    F12 - Settings Editor: Opens a menu to adjust other visual parameters like FOV size, aim target, and offsets.
+-    END - Exit and Save: Closes the application and saves the last used HSV values to tuned_hsv_values.txt.
 
 
 #How to Use
