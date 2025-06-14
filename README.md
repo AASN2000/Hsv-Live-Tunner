@@ -6,15 +6,10 @@ This tool does not move your mouse or interact with an Arduino. It is for visual
 #Features
 
     Real-Time Visual Feedback: See exactly what the color detector sees inside the Field of View (FOV).
-
     Live HSV Hot-Swapping: Instantly test new HSV color ranges without restarting the application.
-
     Live Settings Editor: Adjust FOV size, target selection, and offsets on the fly.
-
     Aiming Logic Visualization: Clearly see the difference between the calculated target point and the final aim point after offsets are applied.
-
     Simple & Advanced Modes: Toggle aiming visuals on or off to focus purely on color detection or to fine-tune the aiming logic.
-
     Automatic HSV Export: On exit, the last used HSV values are saved to a clean tuned_hsv_values.txt file for easy reference.
     
 #Prerequisites if you wanna build from source
@@ -43,13 +38,13 @@ END - Exit and Save: Closes the application and saves the last used HSV values t
 6.  Once you are satisfied, press the END key.
 
 #Understanding the Visuals
-Green Crosshair: The exact center of the Field of View (FOV).
-Yellow Contours: An outline around every shape that matches your current HSV color range.
-Purple Contour: The specific contour that has been chosen as the primary target (the one closest to the green crosshair).
+-    Green Crosshair: The exact center of the Field of View (FOV).
+-    Yellow Contours: An outline around every shape that matches your current HSV color range.
+-    Purple Contour: The specific contour that has been chosen as the primary target (the one closest to the green crosshair).
 
 If "Show Aiming Visuals" is ON (Not recomanded to turn on because your aiming logic might be diffrent then mine)
-Blue Circle: The calculated aim point based on your aim_target setting (e.g., the "head" or "body" of the purple contour).
-ed Crosshair: The final aiming position after applying the aim_offset_x and aim_offset_y values to the blue circle. This is where the aimbot would aim.
+-    Blue Circle: The calculated aim point based on your aim_target setting (e.g., the "head" or "body" of the purple contour).
+-    ed Crosshair: The final aiming position after applying the aim_offset_x and aim_offset_y values to the blue circle. This is where the aimbot would aim.
 
 #Configuration (config.json)
 The Tuner uses a config.json file to store its settings.
