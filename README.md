@@ -1,7 +1,7 @@
 # HsvTunner
 This application is a dedicated visual tuning tool for the Color Detecion Aimbot. Its sole purpose is to help you find the settings for color detection in a real-time environment. It reads from and saves to a config.json
 
-This tool does not move your mouse or interact with an Arduino. It is for visual feedback only.
+This tool does not move your mouse or interact with an Arduino. It is for visual feedback only, and do NOT run this program with a game with strict anti chese
 
 #Features
 
