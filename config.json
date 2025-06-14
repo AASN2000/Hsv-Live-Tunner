@@ -1,0 +1,21 @@
+{
+    "menu_key": "VK_F12",
+    "screen_width": 1920,
+    "screen_height": 1080,
+    "fov_size": 300,
+    "hsv_upper": [
+        160,
+        255,
+        255
+    ],
+    "hsv_lower": [
+        140,
+        120,
+        150
+    ],
+    "min_contour_area": 50,
+    "aim_target": "head",
+    "aim_offset_x": 0,
+    "aim_offset_y": -10,
+    "show_aiming_visuals": false
+}
