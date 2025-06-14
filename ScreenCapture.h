@@ -1,4 +1,3 @@
-// For the Tuner Project
 #pragma once
 
 #include <Windows.h>

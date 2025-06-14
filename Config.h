@@ -19,11 +19,10 @@ struct TunerSettings {
     std::vector<int> hsv_upper;
     int min_contour_area;
 
-    // Visuals
     std::string aim_target;
     int aim_offset_x;
     int aim_offset_y;
-    bool show_aiming_visuals; // NEW: The master toggle for aiming visuals
+    bool show_aiming_visuals;
 };
 
 class Config {

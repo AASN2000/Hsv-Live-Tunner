@@ -1,4 +1,3 @@
-// For the Tuner Project
 #include "ScreenCapture.h"
 
 ScreenCapture::ScreenCapture(int width, int height) : capture_width(width), capture_height(height) {

@@ -1,4 +1,3 @@
-// For the Tuner Project
 #include "ColorDetector.h"
 #include <opencv2/imgproc.hpp>
 #include <limits>

@@ -1,4 +1,3 @@
-// For the Tuner Project
 #include "TUI.h"
 #include <iostream>
 #include <string>
@@ -7,7 +6,6 @@
 #include <chrono>
 #include <thread>
 
-// ... (clearScreen and printHeader are unchanged) ...
 void TUI::clearScreen() {
 #ifdef _WIN32
     system("cls");
@@ -80,7 +78,6 @@ void TUI::showTunerSettings(TunerSettings& settings) {
     std::cin.get();
 }
 
-// ... (showHsvTuner is unchanged) ...
 void TUI::showHsvTuner(TunerSettings& settings) {
     clearScreen();
     printHeader("HSV Hot-Swap Tuner");

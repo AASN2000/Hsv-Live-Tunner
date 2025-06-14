@@ -1,4 +1,3 @@
-// For the Tuner Project
 #include <iostream>
 #include <fstream>
 #include <Windows.h>
@@ -15,7 +14,6 @@
 #include "TUI.h"
 
 void saveHsvToTxt(const TunerSettings& settings) {
-    // ... (this function is unchanged)
     std::ofstream file("tuned_hsv_values.txt");
     if (!file.is_open()) {
         std::cerr << "Error: Could not open tuned_hsv_values.txt for writing." << std::endl;
@@ -101,10 +99,9 @@ int main() {
         frame.copyTo(debug_frame);
 
         cv::Point target_pos;
-        // The findTarget function is now simpler, as the drawing logic is all here
         if (color_detector.findTarget(frame, settings, target_pos, &debug_frame)) {
 
-            // NEW: Conditional drawing logic
+            // Conditional drawing logic
             if (settings.show_aiming_visuals) {
                 // ADVANCED MODE: Show aim target and offset
                 cv::Point final_aim_pos(target_pos.x + settings.aim_offset_x, target_pos.y + settings.aim_offset_y);
